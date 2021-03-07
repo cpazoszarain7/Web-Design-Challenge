@@ -1,0 +1,77 @@
+
+
+
+.box{
+    box-model: border-box;
+    border: 10px solid transparent;
+    background-clip:padding-box;
+    background-color:#dcdcdc;
+  }
+
+ body{
+     background-color: #c0c0c0;
+ }
+
+ h1{
+     color: #2f4f4f;
+ }
+
+.top-buffer { margin-top:20px; }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ffffff;
+    padding: 0.8rem 1rem;
+} 
+
+/* change the link color and add padding for height */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 1rem 1rem;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+    background-color: #37474f; /* add background-color to active links */
+}.navbar-custom {
+    background-color: #455a64;
+}
+
+/* for dropdown only - change the color of dropdown */
+.navbar-custom .dropdown-menu {
+    background-color: #37474f;
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 1000px) {
+  
+    #picgrid{
+      visibility: hidden;
+    }
+
+    #picgridver{
+        visibility: visible;
+    }
+  
+    #carrousel {
+      visibility: hidden;
+    }
+  }
