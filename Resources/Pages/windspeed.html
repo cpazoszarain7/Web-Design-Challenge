@@ -32,17 +32,17 @@
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="Resources/Pages/temp.html">Max Temperature</a>
-                <a class="dropdown-item" href="Resources/Pages/humidity.html">Humidity</a>
-                <a class="dropdown-item" href="Resources/Pages/claudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="Resources/Pages/windspeed.html">Wind Speed</a>
+                <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="claudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
               </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Comparison</a>
+                <a class="nav-link" href="comparison.html">Comparison</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Data</a>
+                <a class="nav-link" href="data.html">Data</a>
             </li>
           </ul>
         </div>
@@ -56,52 +56,65 @@
                 <h1>Wind Speed</h1>
                 <hr>
                 
-                <img src="../assets/images/Fig4.png"  alt="Wind Speed" width="300" height="300" class='center'>
+                <div class="col-md-auto px-3">
+                  <img src="../assets/images/Fig4.png" class="mx-auto d-block mr-3 img-fluid" alt="Max Temperature" width="400" height="300">
+                  </div>
                 <p>Anim nostrud mollit nulla ut anim in commodo elit. Laboris consequat fugiat ex anim et et et elit pariatur labore. 
                     Anim in dolor ex tempor eiusmod et deserunt et veniam anim dolore elit ut tempor. Eiusmod in mollit amet nisi cillum esse sit qui cupidatat incididunt minim magna ex. 
                     Fugiat est deserunt qui laboris elit minim veniam irure. Sunt magna tempor incididunt voluptate proident voluptate laboris aliquip consequat. 
                     Qui incididunt eu officia ut nisi nulla deserunt eu incididunt et amet in.
                 </p>
+                <p>Anim nostrud mollit nulla ut anim in commodo elit. Laboris consequat fugiat ex anim et et et elit pariatur labore. 
+                  Anim in dolor ex tempor eiusmod et deserunt et veniam anim dolore elit ut tempor. Eiusmod in mollit amet nisi cillum esse sit qui cupidatat incididunt minim magna ex. 
+                  Fugiat est deserunt qui laboris elit minim veniam irure. Sunt magna tempor incididunt voluptate proident voluptate laboris aliquip consequat. 
+                  Qui incididunt eu officia ut nisi nulla deserunt eu incididunt et amet in.
+              </p>
               
             </div>
 
-            <div class="col-md-4 box" >
+            <div class="col-lg-4 col-md-4 col-sm-12" >
                     <br>
                     <h2>Visualizations</h>
                     <hr>
 
-                    <div class="container-sm">
-                        <div class="row row-cols-6 no-gutters ">
-                          <div class="col">
-                            <div class="p-1 ">
-                                <a href="Resources/Pages/temp.html"><img src="../assets/images/Fig1.png" alt="Max Temperature" style="width:170px;height:150px;" class='center'></a>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="p-1 ">
-                                <a href="Resources/Pages/humidity.html"><img src="../assets/images/Fig2.png" alt="Humidity" style="width:170px;height:150px;" class='center'></a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row row-cols-6 no-gutters ">
-                          <div class="col">
-                            <div class="p-1 ">
-                                <a href="Resources/Pages/claudiness.html"><img src="../assets/images/Fig3.png" alt="Cloudiness" style="width:170px;height:150px;" class='center'></a>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="p-1 bg-dark ">
-                                <a href="Resources/Pages/windspeed.html"><img src="../assets/images/Fig4.png"alt="Wind Speed" style="width:170px;height:150px;" class='center'></a>
-                            </div>
-                          </div>
-                        </div> 
-                        </div>
-                    </div>                  
-            </div>
-            
-        </div>
+                    <div class="container-lg box">
 
-    </div>
+                      <div class="row no-gutters ">
+                        <div class="col-lg-6 col-md-12 col-sm-3 p-2">
+      
+                              <h4>vs. Max Temperature</h4>
+                              <a href="temp.html"><img src="../assets/images/Fig1.png" alt="Max Temperature" width="230" height="200" class="img-fluid"></a>
+      
+                      </div>
+          
+                      <div class="col-lg-6 col-md-12 col-sm-3 p-2 ">
+      
+                              <h4>vs. Humidity</h4>
+                              <a href="humidity.html"><img src="../assets/images/Fig2.png" alt="Humidity" width="230" height="200" class="img-fluid" ></a>
+      
+                      </div>
+                  
+                      <div class="col-lg-6 col-md-12 col-sm-3 p-2">
+      
+                              <h4>vs. Claudiness</h4>
+                              <a href="claudiness.html"><img src="../assets/images/Fig3.png" alt="Cloudiness" width="230" height="200" class="img-fluid"></a>
+      
+                      </div>
+          
+                      <div class="col-lg-6 col-md-12 col-sm-3 p-2 border border-success">
+      
+                              <h4>vs. Wind Speed</h4>
+                              <a href="windspeed.html"><img src="../assets/images/Fig4.png"alt="Wind Speed" width="230" height="200" class="img-fluid"></a>
+      
+                      </div>                  
+      
+                    </div>
+      
+                </div>
+      
+            </div> 
+      
+          </div>          
   
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
